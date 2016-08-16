@@ -1,0 +1,14 @@
+{
+  "files": [
+    "typings/index.d.ts",
+    "app/src/backend/index.ts"
+  ],
+  "compilerOptions": {
+    "target": "ES6",
+    "module" : "commonjs",
+    "moduleResolution" : "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "outDir": "build"
+  }
+}
